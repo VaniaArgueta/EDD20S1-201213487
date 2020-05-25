@@ -10,8 +10,6 @@ class ListaSimple
     public:
         ListaSimple();
         void insertarAlInicio(int id__, std::string nombre);
-        void mostrar(NodoListaSimple *primero);
-        void mostrar2(NodoListaSimple *ultimo);
         void eliminar(int id_);
         NodoListaSimple *buscar(int id_);
         //
